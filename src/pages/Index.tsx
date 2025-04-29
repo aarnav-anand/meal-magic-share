@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Plus, Search, MapPin, Utensils } from "lucide-react";
 import { toast } from "sonner";
@@ -154,6 +153,15 @@ const Index = () => {
           )}
         </div>
       </section>
+
+      {/* Footer with attribution */}
+      <footer className="bg-gray-100 py-8 px-6 text-center border-t">
+        <div className="max-w-6xl mx-auto">
+          <p className="text-muted-foreground">
+            Made by Aarnav Anand, Shivam Vaja, Shreekunj Girnara, Mallesh Baku, and Jalesh Dhanesha
+          </p>
+        </div>
+      </footer>
 
       {/* Donation Form Modal */}
       {showDonationForm && (
